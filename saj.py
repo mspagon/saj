@@ -1,12 +1,12 @@
 from flask import Flask
 
-application = Flask(__name__)
+app= Flask(__name__)
 
 
-@application.route("/")
+@app.route("/")
 def index():
     return "Please Login!"
 
 
 if __name__ == ("__main__"):
-    application.run()
+    app.run()
