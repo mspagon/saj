@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background: #9C1A1C;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+}
+
+.content {
+    margin: 10px;
+}
