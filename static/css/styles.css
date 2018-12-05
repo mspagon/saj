@@ -13,3 +13,24 @@
 .content {
     margin: 10px;
 }
+
+div p {
+    color: #9C1A1C;
+}
+
+p::selection {
+    color: #9C1A1C;
+    background: #11557C;
+}
+
+.header_middle {
+    background-color: rgba(200,200,20,.5);
+}
+
+.header_middle:active {
+    background-color: rgba(100,100,100,1.0)
+}
+
+.header_middle:hover {
+    background-color: rgba(20, 80, 210 ,1.0)
+}

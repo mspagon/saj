@@ -5,5 +5,12 @@
 {% endblock %}
 
 {% block content %}
-<h1>Name</h1>
-{% endblock %}
+<div class="content">
+    <h1>Names:</h1>
+    <ul>
+        {% for name in names %}
+            <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+</div>
