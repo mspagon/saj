@@ -3,3 +3,8 @@
 starts a new instance of your application. This runs before any
 WSGI applications specified in app.yaml are loaded.
 """
+
+from google.appengine.ext import vendor
+
+# Add any libraries installed in the "lib" folder.
+vendor.add('lib')
