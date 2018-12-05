@@ -7,5 +7,5 @@ handlers:
   script: saj.app
 
 libraries:
-- name: ssl
+- name: flask
   version: latest
